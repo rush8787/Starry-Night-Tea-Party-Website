@@ -1,1 +1,6 @@
-
+body {
+    background-image: url('background_image.jpg');
+    background-size: cover; /* 使背景圖片充滿整個視窗 */
+    background-position: center; /* 將背景圖片居中 */
+    background-repeat: no-repeat; /* 防止背景圖片重複 */
+}
