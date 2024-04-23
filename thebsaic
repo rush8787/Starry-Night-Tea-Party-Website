@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原神活動網頁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>歡迎來到星夜茶會活動專頁！</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">活動介紹</a></li>
+                <li><a href="#schedule">活動日程</a></li>
+                <li><a href="#gallery">圖片集</a></li>
+                <li><a href="#contact">聯繫我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>活動介紹</h2>
+            <p>這裡是關於「星夜茶會」活動的介紹文字。</p>
+        </section>
+        
+        <section id="schedule">
+            <h2>活動日程</h2>
+            <p>詳細列出活動的時間表和各個重要環節。</p>
+        </section>
+        
+        <section id="gallery">
+            <h2>圖片集</h2>
+            <p>展示活動相關的圖片或者遊戲截圖。確保使用的是版權許可的圖片。</p>
+        </section>
+
+        <section id="contact">
+            <h2>聯繫我們</h2>
+            <p>提供組織者的聯繫信息或者活動的官方社交媒體連結。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 星夜茶會：原神活動. 所有權利保留。</p>
+    </footer>
+</body>
+</html>
