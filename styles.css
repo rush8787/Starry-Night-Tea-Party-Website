@@ -4,5 +4,10 @@ body {
     opacity: 0.8; /* 設置背景圖片的透明度為 0.8（範圍是從 0 到 1，1 表示完全不透明） */
     background-position: center; /* 將背景圖片居中 */
     background-repeat: no-repeat; /* 防止背景圖片重複 */
-    font-family: "Microsoft JhengHei", "PMingLiU", serif; /*明體*/
+    .noto-serif-tc-regular {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
