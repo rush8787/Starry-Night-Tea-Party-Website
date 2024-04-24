@@ -3,55 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>星夜茶會活動官方網站</title>
+    <title>你的網站名稱</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+        /* CSS 樣式可以放在這裡，或者放在外部的 styles.css 文件中 */
 
-        header {
-            text-align: center;
-        }
-
-        main {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-            max-width: 800px; /* 調整標題橫向排列的最大寬度 */
-        }
-
-        section {
-            text-align: center;
-            width: 45%; /* 調整每個標題區塊的寬度 */
-            margin-bottom: 20px; /* 添加底部間距 */
-        }
-
-        footer {
-            margin-top: 20px; /* 添加頂部間距 */
-            text-align: center;
+        /* 讓圖片保持固定大小 */
+        nav img {
+            width: 100px; /* 設置圖片寬度 */
+            height: auto; /* 高度自動調整，以保持圖片原始比例 */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>與星夜茶會的邂逅</h1>
+        <h1>你的網站名稱</h1>
         <nav>
             <ul>
-             <li><a href="activity.html">活動訊息</a></li>
-                <li><a href="about.html">關於我們</a></li>
-                <li><a href="vote.html">人氣投票</a></li>
-                <li><a href="contact.html">聯繫我們</a></li>
+                <li>
+                    <a href="activity.html">
+                        <img src="activity.jpg" alt="活動訊息">
+                        活動訊息
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <img src="about.jpg" alt="關於我們">
+                        關於我們
+                    </a>
+                </li>
+                <li>
+                    <a href="vote.html">
+                        <img src="vote.jpg" alt="人氣投票">
+                        人氣投票
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <img src="contact.jpg" alt="聯繫我們">
+                        聯繫我們
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
+
 
     <main>
         <section id="activity">
