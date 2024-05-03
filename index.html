@@ -1,108 +1,49 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>星夜茶會活動官方網站</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>原神角色與國家投票</title>
     <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        main {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-            max-width: 800px; /* 調整標題橫向排列的最大寬度 */
-        }
-
-        section {
-            text-align: center;
-            width: 45%; /* 調整每個標題區塊的寬度 */
-            margin-bottom: 20px; /* 添加底部間距 */
-        }
-
-        footer {
-            margin-top: 20px; /* 添加頂部間距 */
-            text-align: center;
-        }
-
-        /* 讓圖片保持固定大小 */
-        nav img {
-            width: 100px; /* 設置圖片寬度 */
-            height: auto; /* 高度自動調整，以保持圖片原始比例 */
-        }
+        /* 在這裡添加你的CSS樣式 */
     </style>
 </head>
 <body>
     <header>
-        <h1>與星夜茶會的邂逅</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="activity.html">
-                        <img src="activity.png" alt="活動訊息">
-                    </a>
-                </li>
-                <li>
-                    <a href="about.html">
-                        <img src="about.jpg" alt="關於我們">
-                        關於我們
-                    </a>
-                </li>
-                <li>
-                    <a href="vote.html">
-                        <img src="vote.jpg" alt="人氣投票">
-                        人氣投票
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html">
-                        <img src="contact.jpg" alt="聯繫我們">
-                        聯繫我們
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <h1>原神角色與國家投票</h1>
+        <p>歡迎參加原神角色和國家的投票活動！請在下面進行您的選擇。</p>
     </header>
-
+    
     <main>
-        <section id="activity">
-            <h2>活動訊息</h2>
-            <p>這裡可以放置關於活動的訊息和通知。</p>
+        <section id="voting-section">
+            <h2>投票</h2>
+            <form id="voting-form">
+                <fieldset>
+                    <legend>請選擇您喜歡的角色：</legend>
+                    <!-- 在這裡添加角色的選項 -->
+                </fieldset>
+                <fieldset>
+                    <legend>請選擇您喜歡的國家：</legend>
+                    <!-- 在這裡添加國家的選項 -->
+                </fieldset>
+                <button type="submit">提交投票</button>
+            </form>
         </section>
 
-        <section id="about">
-            <h2>關於我們</h2>
-            <p>這裡可以放置關於你的網站或組織的簡介和資訊。</p>
-        </section>
-
-        <section id="vote">
-            <h2>人氣投票</h2>
-            <p>在這裡舉辦一些有趣的投票，與你的訪客互動。</p>
-        </section>
-
-        <section id="contact">
-            <h2>聯繫我們</h2>
-            <p>如果您有任何問題或建議，請隨時與我們聯繫。</p>
+        <section id="results-section" style="display: none;">
+            <h2>投票結果</h2>
+            <div id="voting-results">
+                <!-- 投票結果將會在這裡顯示 -->
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 你的網站名稱。保留所有權利。</p>
+        <p>© 2024 原神投票活動</p>
     </footer>
+
+    <script>
+        // 在這裡添加JavaScript代碼，處理投票表單的提交和結果的顯示
+    </script>
 </body>
 </html>
-
